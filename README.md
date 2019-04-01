@@ -5,7 +5,7 @@ IMPORTANT!
 In order to run Gulp with watching file changes and a dev server, all you need
 to type is:
 
-gulp watch
+`gulp watch`
 
 ## Build system:
 
