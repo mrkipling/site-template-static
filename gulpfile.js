@@ -143,7 +143,7 @@ gulp.task("fonts", () =>
 
 /* --- Watch ---*/
 
-gulp.task("watch", () => {
+gulp.task("watch", ["default"], () => {
   gulp.watch(paths.html, ["html"]);
   gulp.watch(paths.css.files, ["css:site"]);
   gulp.watch(paths.css.plain, ["css:plain"]);
