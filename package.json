@@ -1,0 +1,45 @@
+{
+  "name": "site-template-static",
+  "version": "0.0.0",
+  "main": "",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bradley Abrahams <https://github.com/mrkipling>",
+  "license": "",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "autoprefixer": "9.5.0",
+    "babel-eslint": "10.0.1",
+    "babelify": "^10.0.0",
+    "browser-sync": "2.26.3",
+    "browserify": "16.2.3",
+    "eslint": "5.16.0",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-react": "7.12.4",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-buffer": "0.0.2",
+    "gulp-clean-css": "4.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-file-include": "2.0.1",
+    "gulp-if": "2.0.2",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-rename": "1.4.0",
+    "gulp-rimraf": "0.2.2",
+    "gulp-sass": "4.0.2",
+    "gulp-sourcemaps": "2.6.5",
+    "gulp-uglify": "3.0.2",
+    "vinyl-source-stream": "2.0.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "breakpoint-sass": "2.7.1",
+    "breakpoint-slicer": "2.0.0",
+    "jquery": "^3.3.1"
+  }
+}

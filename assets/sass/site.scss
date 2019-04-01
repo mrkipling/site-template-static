@@ -1,0 +1,23 @@
+// mixins
+
+@import "mixins/mixins"; // miscellaneous mixins
+
+// breakpoints (slicer)
+
+@import "breakpoint-sass/stylesheets/_breakpoint";
+@import "breakpoint-slicer/stylesheets/_breakpoint-slicer";
+$slicer-breakpoints: 0 640px 935px;
+$slicer-breakpoint-names: "s" "m" "l";
+
+// base styling
+
+@import "reset"; // reset styling
+@import "vars"; // customisable variables (fonts, colours, widths, etc.)
+@import "base"; // base styling
+@import "default"; // default styling of elements; probably first thing to be removed
+@import "grid"; // 12 column grid system
+
+// components
+// go here...
+
+@import "utils"; // utility classes (at end for specificity reasons)

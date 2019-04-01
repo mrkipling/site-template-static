@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="static/css/site.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- START: DELETE FROM HERE -->
+
+      <!-- gulp-file-include example -->
+
+      @@include('./components/header.html', {
+      "title": "Static site template"
+      })
+
+      <!-- 12 column grid example -->
+
+      <hr>
+
+      <h2>Grid example</h2>
+
+      <div class="row">
+        <div class="col col4">
+          4
+        </div>
+        <div class="col col8">
+          8
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col2">
+          2
+        </div>
+        <div class="col col2">
+          2
+        </div>
+        <div class="col col1">
+          1
+        </div>
+        <div class="col col5">
+          5
+        </div>
+        <div class="col col1">
+          1
+        </div>
+        <div class="col col1">
+          1
+        </div>
+      </div>
+
+      <!-- Default formatting example -->
+
+      <hr>
+
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="unvisited.html">Donec porttitor sapien</a> ac leo posuere finibus. <a href="#">Donec vel urna velit.</a> Fusce aliquam nulla massa, sit amet molestie ex molestie in.</p>
+      <p>Sed ac tincidunt sem, eu vulputate erat. Integer varius lacus quam. Pellentesque commodo vehicula ante, ut convallis mauris fermentum in. Sed quam eros, congue et vehicula vitae, posuere nec leo. Pellentesque lectus nisl, lacinia vitae interdum ac, vestibulum et elit.</p>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+
+      <hr>
+
+      <div class="grid">
+        <div class="row">
+          <div class="example-toggle-source col col6 js-toggle-element" data-toggle-element="example-toggle-target">Click me to toggle</div>
+          <div class="example-toggle-target col col6">Hello!</div>
+        </div>
+      </div>
+
+      <!-- END: DELETE FROM HERE -->
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="static/js/app.js"></script>
+
+  </body>
+</html>
